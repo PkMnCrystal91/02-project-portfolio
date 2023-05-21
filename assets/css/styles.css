@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #20232a;
+  --color-base: #033f47;
+  --color-base2: #022a30;
+  --color-brand: #e0f780;
+  --color-brand2: #deff58;
+  --sidbar-width: 240px;
+  --font-base: "Bai Jamjuree";
+}
+
+.container-fluid {
+  background: gray;
+}
+
+/* 
+========================
+HEADER
+========================
+*/
+
+header {
+  background: var(--color-heading);
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 93%;
+  padding: 0;
+}
+
+.navbar-toggler {
+  color: #61dafb;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* .navbar-toggler:focus {
+  box-shadow: none;
+} */
+
+@media (max-width: 576px) {
+  .ul-bg {
+  }
+
+  a {
+    margin: 0 0;
+  }
+}
+
+nav .nav-item a:hover {
+  color: #61dafb !important;
+}
+
+/* 
+========================
+HERO SECTION
+========================
+*/
+
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../imgs/hero-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+  height: 80vh;
+}
+
+section {
+  padding: 0;
+}
+
+.section-1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.lorem-text {
+  margin: 0 auto;
+  width: 50vw;
+  font-size: 1rem;
+}
+
+/* 
+========================
+FOOTER
+========================
+*/
+footer {
+  height: 15vh;
+  background: yellow;
+}

@@ -5,12 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/aos.css" />
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link mx-3 fs-5 rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link mx-3 fs-5 rel="stylesheet" href="./assets/css/aos.css" />
+    <link
+      mx-3
+      fs-5
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link mx-3 fs-5 rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container-fluid">
+      <!-- HEADER -->
+      <header class="row">
+        <nav class="navbar navbar-expand-md col-12">
+          <a class="navbar-brand ml-4" href="#">DevGutti</a>
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#btn"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto ul-bg">
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Pojects</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- HERO SECTION -->
+      <main class="row">
+        <section class="section-1 col-12">
+          <p class="text-center mt-5">I'm Herbert Gutiérrez a</p>
+          <p class="text-center">ReactJS Front-End Developer</p>
+          <p class="text-center">from El Salvador</p>
+          <p class="lorem-text text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            nulla consequuntur ea nobis porro adipisci obcaecati. Provident iure
+            quas, suscipit vel voluptatibus quod cupiditate excepturi.
+          </p>
+        </section>
+        <section
+          class="section-2 col-12 d-flex justify-content-center align-items-center"
+        >
+          <a href="">
+            <button type="button" class="btn btn-info text-light">
+              AVIABLE FOR HIRE
+            </button>
+          </a>
+        </section>
+      </main>
+      <footer class="row">
+        <div class="footer-title col-12">
+          <h5 class="text-center">TECHNOLOGIES</h5>
+        </div>
+
+        <div class="footer-icons"></div>
+      </footer>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
   </body>
 </html>
