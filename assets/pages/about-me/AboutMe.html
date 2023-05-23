@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/aos.css" />
     <link
       mx-3
       fs-5
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -32,14 +32,12 @@
           <div class="collapse navbar-collapse" id="btn">
             <ul class="navbar-nav ms-auto ul-bg">
               <li class="nav-item">
-                <a href="#" class="nav-link mx-3 fs-5">Home</a>
+                <a href="../../../index.html" class="nav-link mx-3 fs-5"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a
-                  href="./assets/pages/about-me/AboutMe.html"
-                  class="nav-link mx-3 fs-5"
-                  >About Me</a
-                >
+                <a href="#" class="nav-link mx-3 fs-5">About Me</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link mx-3 fs-5">Education</a>
@@ -57,24 +55,30 @@
 
       <!-- HERO SECTION -->
       <main class="row">
-        <section class="section-1 col-12">
-          <p class="text-center mt-5">I'm Herbert Gutiérrez a</p>
-          <p class="text-center">ReactJS Front-End Developer</p>
-          <p class="text-center">from El Salvador</p>
-          <p class="lorem-text text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
-            nulla consequuntur ea nobis porro adipisci obcaecati. Provident iure
-            quas, suscipit vel voluptatibus quod cupiditate excepturi.
-          </p>
+        <section class="section-1 col-md-4 col-lg-5 px-3">
+          <div
+            class="avatar-container d-flex flex-column align-items-center justify-content-center"
+          >
+            <img
+              class="avatar-img my-4 rounded-circle"
+              src="../../imgs/avatar.png"
+              alt=""
+            />
+
+            <ul
+              class="social-media-list d-flex flex-column align-items-center justify-content-around m-0 p-0"
+            >
+              <li class="">GitHub</li>
+              <li class=" ">Linke in</li>
+              <li class=" ">Facebook</li>
+              <li class=" ">Instagram</li>
+            </ul>
+          </div>
         </section>
         <section
-          class="section-2 col-12 d-flex justify-content-center align-items-center"
+          class="section-2 col-md-8 col-lg-7 p-4 d-flex align-items-center"
         >
-          <a href="">
-            <button type="button" class="btn btn-info text-light">
-              AVIABLE FOR HIRE
-            </button>
-          </a>
+          <div class="section-2-container">hello</div>
         </section>
       </main>
       <footer class="row">
@@ -87,48 +91,37 @@
           <div
             class="box box-1 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/html-icon.png" alt="html icon" />
+            <img src="../../imgs/html-icon.png" alt="html icon" />
           </div>
           <div
             class="box box-2 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/css-icon.png" alt="css icon" />
+            <img src="../../imgs/css-icon.png" alt="css icon" />
           </div>
           <div
             class="box box-1 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/js-icon.png" alt="js icon" />
+            <img src="../../imgs/js-icon.png" alt="js icon" />
           </div>
           <div
             class="box box-2 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/react-icon.png" alt="react icon" />
+            <img src="../../imgs/react-icon.png" alt="react icon" />
           </div>
           <div
             class="box box-3 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/sql-icon.png" alt="" />
+            <img src="../../imgs/sql-icon.png" alt="" />
           </div>
           <div
             class="box box-6 col-12 col-sm-6 d-flex justify-content-center align-items-center"
           >
-            <img src="./assets/imgs/ts-icon.png" alt="type scr" />
+            <img src="../../imgs/ts-icon.png" alt="type scr" />
           </div>
         </div>
       </footer>
     </div>
-
-    <!-- <div class="footer-title col-12 mt-4 mb-4">
-      <h5 class="text-center">TECHNOLOGIES</h5>
-    </div>
-
-    <div class="box box-1 col-">1</div>
-    <div class="box box-2 col-6">2</div>
-    <div class="box box-3 col-6">3</div>
-    <div class="box box-4 col-6">4</div>
-    <div class="box box-5 col-6">5</div>
-    <div class="box box-6 col-6">6</div> -->
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/aos.js"></script>
   </body>
 </html>

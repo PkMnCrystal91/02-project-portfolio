@@ -19,10 +19,10 @@
 }
 
 /* 
-========================
-HEADER
-========================
-*/
+  ========================
+  HEADER
+  ========================
+  */
 
 header {
   background: var(--color-heading);
@@ -43,8 +43,8 @@ header {
 }
 
 /* .navbar-toggler:focus {
-  box-shadow: none;
-} */
+    box-shadow: none;
+  } */
 
 @media (max-width: 576px) {
   .ul-bg {
@@ -60,40 +60,40 @@ nav .nav-item a:hover {
 }
 
 /* 
-========================
-HERO SECTION
-========================
-*/
+  ========================
+  HERO SECTION
+  ========================
+  */
 
-main {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../imgs/hero-bg.png");
-  background-size: cover;
-  background-position: center center;
-  background-attachement: fixed;
-  height: 95vh;
-}
-
-section {
-  padding: 0;
-}
-
-.section-1 {
-  color: white;
-  font-size: 2rem;
-}
-
-.lorem-text {
-  margin: 0 auto;
-  width: 50vw;
-  font-size: 1rem;
-}
+/* main {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("../imgs/hero-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachement: fixed;
+    height: 95vh;
+  }
+  
+  section {
+    padding: 0;
+  }
+  
+  .section-1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .lorem-text {
+    margin: 0 auto;
+    width: 50vw;
+    font-size: 1rem;
+  } */
 
 /* 
-========================
-FOOTER
-========================
-*/
+  ========================
+  FOOTER
+  ========================
+  */
 footer {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("../imgs/footer-bg.png");
@@ -142,4 +142,39 @@ img {
 }
 
 .box-6 {
+}
+
+/* 
+  ==========
+  ============
+  */
+
+main {
+  height: 95vh;
+}
+.section-1 {
+}
+
+.section-2 {
+  background: pink;
+}
+
+.avatar-container {
+  background: blue;
+  height: 95%;
+}
+
+.social-media-list {
+  list-style: none;
+  height: 100%;
+}
+
+.avatar-img {
+  width: 180px;
+  height: 180px;
+  border: solid 8px black;
+}
+
+.section-2-container {
+  background: blue;
 }
