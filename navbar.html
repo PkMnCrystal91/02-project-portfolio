@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link
+      mx-3
+      fs-5
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        background-color: rgba(255, 0, 0, 0.1);
+        height: 100vh;
+      }
+
+      .hero-main {
+        grid-row: 2/12;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <header class="row">
+      <nav class="navbar navbar-expand-md navbar-light bg-light col-11 mx-auto">
+        <a href="" class="navbar-brand ml-4"> DevGutti </a>
+        <button
+          class="navbar-toggler me-3"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </header> -->
+
+    <div class="container">
+      <header class="row" style="background-color: aqua">
+        <nav class="navbar navbar-expand-lg col-12">
+          <a class="navbar-brand ml-4" href="#">DevGutti</a>
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#btn"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto ul-bg">
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./assets/pages/about-me/AboutMe.html"
+                  class="nav-link mx-3 fs-5"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Pojects</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="row hero-main" style="background-color: rgb(0, 182, 15)">
+        <aside class="col-12 col-md-6">aside</aside>
+        <section class="col-12 col-md-6" style="background-color: coral">
+          <article>Article</article>
+          <article>Article</article>
+          <article>Article</article>
+        </section>
+      </main>
+      <footer class="row" style="background-color: blueviolet">footer</footer>
+    </div>
+  </body>
+</html>

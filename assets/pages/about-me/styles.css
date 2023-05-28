@@ -96,7 +96,7 @@ nav .nav-item a:hover {
   */
 footer {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("../imgs/footer-bg.png");
+    url("../../imgs/footer-bg.png");
   background-size: cover;
   background-position: center center;
   background-attachement: fixed;
@@ -126,41 +126,23 @@ img {
   }
 }
 
-.box-1 {
-}
-
-.box-2 {
-}
-
-.box-3 {
-}
-
-.box-4 {
-}
-
-.box-5 {
-}
-
-.box-6 {
-}
-
 /* 
   ==========
   ============
   */
 
 main {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../../imgs/background-about.png");
   height: 95vh;
 }
 .section-1 {
 }
 
 .section-2 {
-  background: pink;
 }
 
 .avatar-container {
-  background: blue;
   height: 95%;
 }
 
@@ -175,6 +157,45 @@ main {
   border: solid 8px black;
 }
 
+.avatar-img {
+  border: 8px solid white;
+}
 .section-2-container {
-  background: blue;
+}
+
+.link-custom {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media:hover {
+  color: #e0f780;
+}
+
+.text-brand {
+  color: #61dafb;
+}
+
+#work {
+  background: #e0f780;
+}
+
+#work:hover {
+  background: #e2c016;
+}
+
+@media (max-width: 767px) {
+  .section-2-container {
+    text-align: center;
+  }
 }
