@@ -20,10 +20,10 @@
 }
 
 /* 
-  ========================
-  HEADER
-  ========================
-  */
+    ========================
+    HEADER
+    ========================
+    */
 
 header {
   background: var(--color-heading);
@@ -44,8 +44,8 @@ header {
 }
 
 /* .navbar-toggler:focus {
-    box-shadow: none;
-  } */
+      box-shadow: none;
+    } */
 
 @media (max-width: 576px) {
   .ul-bg {
@@ -61,7 +61,7 @@ nav .nav-item a:hover {
 }
 
 /* ==================000
- */
+   */
 
 main {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -84,16 +84,17 @@ article {
 
 .image-weather {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../imgs/weather-app.png");
+    url("../../imgs/utec-logo.png");
 
   background-size: cover;
   background-position: center center;
   background-attachement: fixed;
+  height: 168px;
 }
 
 .image-heroes {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../imgs/heroes-app.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../../imgs/udemy.png");
 
   background-size: cover;
   background-position: center center;
@@ -101,30 +102,13 @@ article {
 }
 
 .image-movies {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../imgs/movies-app.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../../imgs/itca.png");
 
   background-size: cover;
   background-position: center center;
   background-attachement: fixed;
-}
-
-.image-creativa {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../imgs/creativa-work.png");
-
-  background-size: cover;
-  background-position: center center;
-  background-attachement: fixed;
-}
-
-.image-root {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../imgs/roots-work.png");
-
-  background-size: cover;
-  background-position: center center;
-  background-attachement: fixed;
+  height: 168px;
 }
 
 .text-container {

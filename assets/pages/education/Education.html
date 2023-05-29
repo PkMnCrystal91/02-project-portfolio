@@ -5,8 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      mx-3
+      fs-5
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello education</h1>
+    <div class="container-fluid">
+      <header class="row">
+        <nav class="navbar navbar-expand-lg col-12">
+          <a class="navbar-brand ml-4" href="#">DevGutti</a>
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#btn"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto ul-bg">
+              <li class="nav-item">
+                <a href="../../../index.html" class="nav-link mx-3 fs-5"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../about-me/AboutMe.html" class="nav-link mx-3 fs-5"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../education/Education.html" class="nav-link mx-3 fs-5"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Experience</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="row">
+        <section class="row col-11 mx-auto gap-3">
+          <!-- Title -->
+          <div class="header-title col-12 mt-2">
+            <h2 class="text-center">EDUCATION</h2>
+          </div>
+          <article class="col-11 mx-auto d-flex flex-column flex-md-row">
+            <div
+              class="image-container image-weather p-3 d-flex align-items-center justify-content-center"
+            >
+              <h3 class="text-center">
+                UNIVERSIDAD TECNOLOGICA DE EL SALVADOR
+              </h3>
+            </div>
+            <div class="text-container p-3">
+              <ul class="text-decoration-none list-unstyled text-center">
+                <li>Tecnico en Ingenieria de Software</li>
+                <li>Year : 2020 - 2022</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="col-11 mx-auto d-flex flex-column-reverse flex-md-row"
+          >
+            <div class="text-container p-3">
+              <ul class="text-decoration-none list-unstyled text-center">
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>HTML & CSS</li>
+                <li>Git Version control</li>
+                <li>SQL Server</li>
+              </ul>
+            </div>
+            <div
+              class="image-container image-heroes p-3 d-flex align-items-center justify-content-center"
+            ></div>
+          </article>
+
+          <article class="col-11 mx-auto d-flex flex-column flex-md-row mb-2">
+            <div
+              class="image-container image-movies d-flex align-items-center justify-content-center"
+            ></div>
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+              <p>
+                <span>Source code</span>
+                <a href="" style="text-decoration: none"> Github </a>
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/aos.js"></script>
   </body>
 </html>
