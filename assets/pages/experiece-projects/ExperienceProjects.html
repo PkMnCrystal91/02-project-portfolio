@@ -5,8 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      mx-3
+      fs-5
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container-fluid">
+      <header class="row">
+        <nav class="navbar navbar-expand-lg col-12">
+          <a class="navbar-brand ml-4" href="#">DevGutti</a>
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#btn"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto ul-bg">
+              <li class="nav-item">
+                <a href="../../../index.html" class="nav-link mx-3 fs-5"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../about-me/AboutMe.html" class="nav-link mx-3 fs-5"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../education/Education.html" class="nav-link mx-3 fs-5"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mx-3 fs-5">Experience</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="row">
+        <section class="row col-11 mx-auto gap-3">
+          <!-- Title -->
+          <div class="header-title col-12 mt-2">
+            <h2 class="text-center">MY PROJECTS</h2>
+          </div>
+          <article class="col-11 mx-auto d-flex flex-column flex-md-row">
+            <div
+              class="image-container image-weather p-3 d-flex align-items-center justify-content-center"
+            >
+              <h3>WEATHER APP</h3>
+            </div>
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+
+              <p>
+                <span>Source code</span>
+                <a href="" style="text-decoration: none"> Github </a>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="col-11 mx-auto d-flex flex-column-reverse flex-md-row"
+          >
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+              <p>
+                <span>Source code</span>
+                <a href="" style="text-decoration: none"> Github </a>
+              </p>
+            </div>
+            <div
+              class="image-container image-heroes p-3 d-flex align-items-center justify-content-center"
+            >
+              <h3>HEROES APP</h3>
+            </div>
+          </article>
+
+          <article class="col-11 mx-auto d-flex flex-column flex-md-row mb-2">
+            <div
+              class="image-container image-movies d-flex align-items-center justify-content-center"
+            >
+              <h3>MOVIES APP</h3>
+            </div>
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+              <p>
+                <span>Source code</span>
+                <a href="" style="text-decoration: none"> Github </a>
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <section class="row col-11 mx-auto gap-3 mb-3">
+          <!-- Title -->
+          <div class="header-title col-12 mt-2">
+            <h2 class="text-center">WORK EXPERIENCE</h2>
+          </div>
+          <article class="col-11 mx-auto d-flex flex-column flex-md-row">
+            <div
+              class="image-container image-creativa p-3 d-flex align-items-center justify-content-center"
+            >
+              <h4>CREATIVA CONSULTES SV</h4>
+            </div>
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+
+              <p><span>Source code</span> <a href=""> Github </a></p>
+            </div>
+          </article>
+
+          <article
+            class="col-11 mx-auto d-flex flex-column-reverse flex-md-row"
+          >
+            <div class="text-container p-3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                quos perspiciatis dolores exercitationem eius adipisci
+                architecto veniam. Cum animi, corporis perspiciatis quisquam
+                consectetur perferendis eaque, voluptatibus maiores inventore
+                impedit iusto.
+              </p>
+              <p><span>Source code</span> <a href=""> Github </a></p>
+            </div>
+            <div
+              class="image-container image-root p-3 d-flex align-items-center justify-content-center"
+            >
+              <h4>SOLUCIONES ROOT</h4>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/aos.js"></script>
   </body>
 </html>

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #20232a;
+  --color-base: #033f47;
+  --color-base2: #022a30;
+  --color-brand: #e0f780;
+  --color-brand2: #deff58;
+  --sidbar-width: 240px;
+  --font-base: "Bai Jamjuree";
+}
+
+.container-fluid {
+}
+
+/* 
+  ========================
+  HEADER
+  ========================
+  */
+
+header {
+  background: var(--color-heading);
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 93%;
+  padding: 0;
+}
+
+.navbar-toggler {
+  color: #61dafb;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* .navbar-toggler:focus {
+    box-shadow: none;
+  } */
+
+@media (max-width: 576px) {
+  .ul-bg {
+  }
+
+  a {
+    margin: 0 0;
+  }
+}
+
+nav .nav-item a:hover {
+  color: #61dafb !important;
+}
+
+/* ==================000
+ */
+
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/article-1.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+.image-container {
+  width: 100%;
+}
+
+section {
+}
+
+article {
+  color: white;
+}
+
+.image-weather {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/weather-app.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+
+.image-heroes {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/heroes-app.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+
+.image-movies {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/movies-app.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+
+.image-creativa {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/creativa-work.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+
+.image-root {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../imgs/roots-work.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachement: fixed;
+}
+
+.text-container {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .image-container {
+    height: 8rem;
+  }
+}
