@@ -72,7 +72,7 @@ main {
   background-size: cover;
   background-position: center center;
   background-attachement: fixed;
-  height: 95vh;
+  /* height: 95vh; */
 }
 
 section {
